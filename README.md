@@ -57,7 +57,7 @@ $$ dS_t = \mu S_t dt + \sigma S_t dW_t $$
 
 where:
 
-* $S_t$ is the stock price at time $ t $,
+* $S_t$ is the stock price at time $t$,
 * $\mu$ is the drift rate,
 * $\sigma$ is the volatility,
 * $dW_t$ is a standard Wiener process.
