@@ -70,7 +70,7 @@ where $Z$ is a matrix of standard normal random variables.
 
 The discretized version of the GBM used in the function is obtained from the Euler-Maruyama method, and is given by:
 
-$$ S_{t+dt} = S_t \cdot \exp\left( \left(\mu - \frac{1}{2} \sigma^2 \right) dt + \sigma \sqrt{dt} \cdot Z_{\text{corr}} \right) $$
+$$S_{t+dt} = S_t \cdot \exp\left( \left(\mu - \frac{1}{2} \sigma^2 \right) dt + \sigma \sqrt{dt} \cdot Z_{\text{corr}} \right)$$
 
 Now, we can proceed to the Monte Carlo simulation.
 
